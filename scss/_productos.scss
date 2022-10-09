@@ -1,0 +1,21 @@
+#productos{
+    font-family: $mainFont;
+    h1{
+        color: $mainColor;
+        font-weight: $fontEbold;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    p{
+        text-align: center;
+        padding-left: 5rem;
+    }
+    .bolleria{
+           h4{
+            text-align: left;
+           }
+           p{
+            text-align: left;
+           }
+        }
+}

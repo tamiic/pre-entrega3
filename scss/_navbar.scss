@@ -1,0 +1,66 @@
+//CSS navbar
+#navegador{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: $white;
+    img{
+        width: 180px;
+        margin-left: 20px;
+        justify-content: center;
+    }
+    ul{
+        
+        font-family: $mainFont;
+        li{
+            list-style: none;
+            margin-right: 5px;
+            a{
+                font-size: $textSm;
+                color: $black;
+                background-image:linear-gradient($mainColor,$mainColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .5s;                
+                &:hover{
+                    color: $mainColor;
+                    font-weight: $textBold;
+                    background-size: 100% 2px;
+                }
+            }
+        }
+    }
+}
+
+//CSS footer
+#pie{
+    background-color: $mainColor;
+    img{
+        width: 50%;
+    }
+    p{
+        color: $white2;
+    }
+    .redes{
+        img{
+            width: 30px;
+            margin-left: 15px;
+        }
+    }
+    h5{
+        color:$white2;
+    }
+    ul{
+        color: $white2;
+        li{
+            img{
+                width: 20px;
+            }
+        }
+    }
+    .cr{
+        color:$white2;
+        align-items: center;
+    }
+}

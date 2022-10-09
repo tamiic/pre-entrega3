@@ -1,0 +1,81 @@
+//index
+.intro{
+    color: $black;
+    h3{
+        margin-top: 2em;
+    }
+    a{
+        border: none;
+        color: $white2;
+        width: 45%;
+        background-image:linear-gradient($black,$black);
+        transition: background-size .5s; 
+        &:hover{
+            color: $white2;
+            background-image:linear-gradient($mainColor,$mainColor);
+            background-size: 100% 2px;
+            cursor: pointer;
+        }
+    }
+    img{
+        padding: 1em;
+        border-top-right-radius:2em;
+        border-bottom-left-radius: 2em;
+    }
+}
+.intro2{
+    background-color: $black;
+    color: $white2;
+    h3{
+        padding-left: 0.5em;
+    }
+    a{
+        img{
+            padding: 1em;
+            border-top-right-radius:2em ;
+            border-bottom-left-radius: 2em;
+        }
+    }
+    
+}
+
+//nosotros
+#nosotros{  
+        h1{
+            text-align: center;
+         }         
+         .intro{
+            video{
+                padding: 2em;
+             }
+            p{
+                padding-top: 3em;
+                font-family: $mainFont;
+                font-size: $textSm;
+            }
+        }
+        .timeline{
+            h2{
+                text-align: center;
+            }
+            img{
+                align-items: center;
+                width: 80px;
+            }
+        
+        }
+}
+
+
+//contacto
+#contacto{
+        h1{
+            color: $mainColor;
+        }
+        .btn{
+            border: none;
+            color: $mainColor;
+            width: 45%;
+            background-color: $black;
+        }
+}
